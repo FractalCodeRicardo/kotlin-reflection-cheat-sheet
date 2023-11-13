@@ -116,8 +116,8 @@ fun main() {
     properties.forEach { println("Property: $it") }
 
     // Get property by name
-    val prop1 = util.getProperty("prop1")
-    println("Property by name: $prop1")
+    val prop = util.getProperty("property")
+    println("Property by name: $prop")
 
     // Get functions
     val functions = util.functions()
